@@ -1,0 +1,33 @@
+.nav {
+    background-color: var(--primary);
+}
+.navbar-brand {
+    color: rgba(255, 255, 255, 0.836)!important;
+    font-size: 1.85rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 3rem!important;
+}
+.navbar-nav {
+    font-weight: 500;
+    font-size: 1.75rem;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+    letter-spacing: 0.0375rem;
+    border-bottom: 0.1875rem solid var(--primary);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.nav-link {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    color: #fff!important;
+    border-bottom: 0.1875rem solid var(--primary);
+}
+.nav-link:focus {
+    border-bottom: 0.1875rem solid var(--primary)
+}
+.nav-link:hover {
+    border-bottom: 0.1875rem solid var(--secondary)
+
+}

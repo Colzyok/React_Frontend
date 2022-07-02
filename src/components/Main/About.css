@@ -1,0 +1,36 @@
+.about {
+    background: #fff;
+    padding-bottom: 3rem;
+}
+.about .heading {
+    margin-bottom: 1rem;
+}
+.about .column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.about .column .image {
+    flex: 1 1 40rem;
+}
+.about .column .image img {
+    width: 100% 
+}
+.about .column .content {
+    flex: 1 1 40rem;
+    padding: 1rem
+}
+.about .column .content h3 {
+    font-size: 3rem;
+    color: rgb(19, 17, 17);
+    text-transform: capitalize
+}
+.about .column .content p {
+    font-size: 1.5rem;
+    color: rgb(14, 13, 13);
+    padding: 1rem 0
+}
+.about .column .content .buttons a:last-child {
+    margin-left: 2rem;
+}
